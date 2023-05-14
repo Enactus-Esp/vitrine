@@ -14,6 +14,8 @@ export const Cover = () => {
                                     standard dummy text ever since the 1500s, when an unknown
                                     printer took a galley of type and scrambled it to make a
                                     type specimen book.`}
+                             width={"md"}
+
                     />
 
                     <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
@@ -25,12 +27,15 @@ export const Cover = () => {
                                 className="h-full w-full object-cover object-center"/>
                         </div>
 
+
                         <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
                             <img
                                 src="https://images.unsplash.com/photo-1586295166487-b265f7e83a7f?auto=format&q=75&fit=crop&w=550&h=550"
                                 loading="lazy" alt="Photo by Manny Moreno"
                                 className="h-full w-full object-cover object-center"/>
                         </div>
+
+
                     </div>
                 </div>
 
