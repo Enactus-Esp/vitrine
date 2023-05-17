@@ -1,10 +1,21 @@
-
-import './App.css';
+import HomeBg from './components/home/HomeBg';
+import Section1 from './components/home/Section1';
+import Footer from './share/Footer';
+import NavBar from './share/navBar';
+import Section2 from './components/home/Section2';
 
 function App() {
   return (
-    <div className='text-6xl bg-purple-200 text-center mt-5'>
-     hello enactus vitrine
+    <div >
+    
+     <NavBar />
+     <HomeBg />
+     <Section1 />
+     <Section2 />
+     <Footer />
+
+     
+     
     </div>
   );
 }
