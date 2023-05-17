@@ -4,6 +4,7 @@ import './App.css'
 import {PostOnActivity} from "./pages/PostOnActivity.jsx";
 import {Header} from "./components/share/Header.jsx";
 import {Footer} from "./components/share/Footer.jsx";
+import Home from './pages/Home.jsx';
 
 function App() {
 
@@ -15,13 +16,16 @@ function App() {
 
             <Routes>
                 {/**/}
-                <Route path={`/`} exact element={ <Activity /> } />
+                <Route path={`/`} exact element={ <Activity />} />
 
                 {/**/}
                 <Route path={`/:post`} exact element={ <PostOnActivity /> } />
 
                 {/**/}
                 <Route path={`*`} exact element={ <Activity /> } />
+
+                {/**/}
+                <Route path={`home`} exact element={ <Home /> } />
             </Routes>
 
             <Footer />

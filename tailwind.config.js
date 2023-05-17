@@ -11,7 +11,10 @@ export default {
       },
       backgroundColor: {
         'main': '#FFC222'
-      }
+      },
+      backgroundImage: {
+        'home': "url('/src/assets/HomeBackground.png')",
+      },
     },
   },
   plugins: [],

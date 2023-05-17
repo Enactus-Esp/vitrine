@@ -1,5 +1,6 @@
 import {useState} from "react";
 import logo from "../../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 export const Header = ({active}) => {
 
@@ -27,10 +28,14 @@ export const Header = ({active}) => {
 
                     {/* nav - start */}
                     <nav className="hidden gap-12 lg:flex">
-                        <a href="#"
+                       <Link to={`home`}>
+                       <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Présentation</a>
-                        <a href="#"
+                        </Link> 
+                       <Link to={`*`}>
+                       <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Nos Activités</a>
+                       </Link>
                         <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Nous Soutenir</a>
                         <a href="#"
