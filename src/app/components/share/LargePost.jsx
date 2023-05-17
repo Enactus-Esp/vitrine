@@ -6,7 +6,7 @@ export const LargePost = ({title, tag, date, cover, content, description}) => {
     return (<>
         <div className={"flex justify-between"}>
             <Heading subtitle={date} title={title} text={description}  />
-            <button className={""}>
+            <button className={"relative -left-4"}>
                 <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                      width="20px" height="20px" viewBox="0 0 483 483">
                     <g>
@@ -33,6 +33,9 @@ export const LargePost = ({title, tag, date, cover, content, description}) => {
 
         <p className="text-gray-500 md:text-lg my-10  px-4 md:px-8">{content}</p>
 
+        <p className={"mb-4 text-end"}>
+            <a href="/sujet" className={"underline font-semibold text-main"}>Read more</a>
+        </p>
         <hr/>
     </>)
 }

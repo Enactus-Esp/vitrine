@@ -30,9 +30,9 @@ export const Header = ({active}) => {
                         <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Présentation</a>
                         <a href="#"
-                           className={active === "home" ? classLinkActive : classLink}>Nos Activité</a>
+                           className={active === "home" ? classLinkActive : classLink}>Nos Activités</a>
                         <a href="#"
-                           className={active === "home" ? classLinkActive : classLink}>Blog</a>
+                           className={active === "home" ? classLinkActive : classLink}>Nous Soutenir</a>
                         <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Contact</a>
                     </nav>
