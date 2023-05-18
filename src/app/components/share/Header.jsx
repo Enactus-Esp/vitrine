@@ -4,12 +4,16 @@ import logo from "../../../assets/logo.svg";
 export const Header = ({active}) => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
+    const [dropMenu, setDropMenu] = useState(false);
     const [lang, setLang] = useState("en");
 
 
 
     const classLink = "text-lg font-semibold text-gray-600 transition duration-100 hover:text-[#FFC222] active:text-[#FFC222]";
     const classLinkActive = "inline-flex items-center gap-1 text-lg font-semibold text-[#FFC222]";
+
+    const classLinkMobile = "block py-2 bg-main mx-4 rounded-full text-center text-lg font-semibold text-white transition duration-100 hover:text-[#FFC222] hover:bg-gray-100 active:text-[#FFC222]";
+    const classLinkMobileActive = "block text-center items-center gap-1 text-lg font-semibold text-[#FFC222]";
 
 
     return (<>
@@ -29,10 +33,10 @@ export const Header = ({active}) => {
                     <nav className="hidden gap-12 lg:flex">
                         <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Présentation</a>
-                        <a href="#"
+                        <a href="/activity"
                            className={active === "home" ? classLinkActive : classLink}>Nos Activités</a>
-                        <a href="#"
-                           className={active === "home" ? classLinkActive : classLink}>Nous Soutenir</a>
+                        <button onClick={() => setDropMenu(!dropMenu)}
+                           className={` flex items-center ${active === "home" ? classLinkActive : classLink}`}>Nos Projects <ArrowDown /></button>
                         <a href="#"
                            className={active === "home" ? classLinkActive : classLink}>Contact</a>
                     </nav>
@@ -43,14 +47,15 @@ export const Header = ({active}) => {
 
                         <img src={lang === "FR" ? "https://flagicons.lipis.dev/flags/4x3/fr.svg" : "https://flagicons.lipis.dev/flags/4x3/gb.svg"} className={"w-5 h-5"} alt=""/>
                         <select name="lang" id="lang" value={lang} onChange={(e) => setLang(e.target.value)}>
-                            <option value="FR">FR</option>
                             <option value="GB">EN</option>
+                            <option value="FR">FR</option>
                         </select>
 
                         <a href="#" className="inline-block rounded-lg bg-[#FFC222] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#C88A12] focus-visible:ring active:bg-indigo-700 md:text-base">ESPACE MEMBRE</a>
                     </div>
 
                     <button type="button"
+                            onClick={() => setToggleMenu(!toggleMenu)}
                             className="inline-flex items-center gap-2 roundedLg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20"
                              fill="currentColor">
@@ -64,8 +69,33 @@ export const Header = ({active}) => {
                     {/* buttons - end */}
                 </header>
 
-
             </div>
+
+
+            {/* menu start*/}
+            <div className="flex justify-center">
+                {toggleMenu &&  <div className={"block w-full  absolute md:hidden "}>
+                    <nav className="bg-white space-y-2 w-full pb-6">
+                        <a href="/"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Présentation</a>
+                        <a href="/activity"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Nos Activités</a>
+                        <a href="/mennen"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Men Nen</a>
+                        <a href="/dimbali"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Dimbali</a>
+                        <a href="/shery"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Shery</a>
+                        <a href="#contact"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Contact</a>
+                    </nav>
+                </div>}
+
+                <div className={"absolute mx-auto z-50"}>
+                    {dropMenu && <Menu/>}
+                </div>
+            </div>
+            {/* menu end*/}
         </div>
     </>)
 }
@@ -73,13 +103,13 @@ export const Header = ({active}) => {
 const Menu = () => {
 
     return (
-        <div className="hidden w-full overflow-hidden roundedLg border bg-gray-50 shadow-sm lg:block">
-            <div className="mx-auto flex maxW-screenLg items-center gap-8 p-8">
-                <div className="grid w-2/3 grid-cols-2 gap-8">
+        <div className="hidden w-full overflow-hidden rounded-lg border bg-gray-50 shadow-sm lg:block ">
+            <div className="mx-auto flex max-w-screen-lg items-center gap-8 p-8">
+                <div className="grid w-full grid-cols-3 gap-10">
                     {/* link - start */}
-                    <a href="#" className="group flex gap-4">
+                    <a href="/mennen" className="group flex gap-4">
                         <div
-                            className="flex h-10 w-10 shrink-0 items-center justify-center roundedLg bg-indigo-500 text-white shadowLg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -88,17 +118,17 @@ const Menu = () => {
                         </div>
 
                         <div>
-                            <div className="mb-1 font-semibold">Growth</div>
-                            <p className="text-sm text-gray-500">This is a section of some simple filler text,
-                                also known as placeholder text.</p>
+                            <div className="mb-1 font-semibold">Men nen</div>
+                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Ad aliquid commodi./</p>
                         </div>
                     </a>
                     {/* link - end */}
 
                     {/* link - start */}
-                    <a href="#" className="group flex gap-4">
+                    <a href="/dimbali" className="group flex gap-4">
                         <div
-                            className="flex h-10 w-10 shrink-0 items-center justify-center roundedLg bg-indigo-500 text-white shadowLg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -107,17 +137,17 @@ const Menu = () => {
                         </div>
 
                         <div>
-                            <div className="mb-1 font-semibold">Security</div>
-                            <p className="text-sm text-gray-500">This is a section of some simple filler text,
-                                also known as placeholder text.</p>
+                            <div className="mb-1 font-semibold">Dimbali</div>
+                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Ad aliquid commodi.</p>
                         </div>
                     </a>
                     {/* link - end */}
 
                     {/* link - start */}
-                    <a href="#" className="group flex gap-4">
+                    <a href="/shery" className="group flex gap-4">
                         <div
-                            className="flex h-10 w-10 shrink-0 items-center justify-center roundedLg bg-indigo-500 text-white shadowLg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -126,50 +156,14 @@ const Menu = () => {
                         </div>
 
                         <div>
-                            <div className="mb-1 font-semibold">Cloud</div>
-                            <p className="text-sm text-gray-500">This is a section of some simple filler text,
-                                also known as placeholder text.</p>
-                        </div>
-                    </a>
-                    {/* link - end */}
-
-                    {/* link - start */}
-                    <a href="#" className="group flex gap-4">
-                        <div
-                            className="flex h-10 w-10 shrink-0 items-center justify-center roundedLg bg-indigo-500 text-white shadowLg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20"
-                                 fill="currentColor">
-                                <path
-                                    d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
-                            </svg>
-                        </div>
-
-                        <div>
-                            <div className="mb-1 font-semibold">Analytics</div>
-                            <p className="text-sm text-gray-500">This is a section of some simple filler text,
-                                also known as placeholder text.</p>
+                            <div className="mb-1 font-semibold">Shery</div>
+                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Ad aliquid commodi.</p>
                         </div>
                     </a>
                     {/* link - end */}
                 </div>
 
-                {/* promo - start */}
-                <div className="w-1/3 overflow-hidden roundedLg border">
-                    <div className="h-48 bg-gray-100">
-                        <img
-                            src="https://images.unsplash.com/photo-1619118884592-11b151f1ae11?auto=format&q=75&fit=crop&w=320"
-                            loading="lazy" alt="Photo by Fakurian Design"
-                            className="h-full w-full object-cover object-center"/>
-                    </div>
-
-                    <div className="flex items-center justify-between gap-2 bgWhite p-3">
-                        <p className="text-sm text-gray-500">This is some simple filler text.</p>
-
-                        <a href="#"
-                           className="inline-block shrink-0 roundedLg border bgWhite px-3 py-1 text-sm font-semibold text-indigo-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-50 focus-visible:ring active:bg-gray-100">More</a>
-                    </div>
-                </div>
-                {/* promo - end */}
             </div>
         </div>
     )

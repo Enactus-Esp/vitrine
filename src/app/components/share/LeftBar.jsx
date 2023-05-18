@@ -15,7 +15,7 @@ export const LeftBar = () => {
     ];
 
     return (<>
-        <div className={"md:block hidden  sticky top-0"}>
+        <div className={"md:block hidden  sticky top-4 h-fit"}>
             <div className={"border p-4 w-72 rounded-xl"}>
                 <SearchBar />
                 <h3 className={"font-bold mt-4"}>RECOMMENDED TOPICS</h3>

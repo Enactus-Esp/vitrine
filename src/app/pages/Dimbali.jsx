@@ -1,12 +1,12 @@
-import {Cover} from "../components/PostOnActivity/Cover.jsx"
-import {Content} from "../components/PostOnActivity/Content.jsx";
-import {LeftBar} from "../components/share/LeftBar.jsx";
+import {Cover} from "../components/dimbali/Cover.jsx";
 import {RightBar} from "../components/share/RightBar.jsx";
+import {NewsLetter} from "../components/share/NewsLetter.jsx";
+import {Content} from "../components/PostOnActivity/Content.jsx";
 
-
-export const PostOnActivity = () => {
+export const Dimbali = () => {
 
     return (<>
+
         {/**/}
         <Cover />
 
@@ -14,12 +14,13 @@ export const PostOnActivity = () => {
         <div className={"flex justify-around"}>
 
             {/**/}
-            <LeftBar />
-            {/**/}
             <Content />
             {/**/}
             <RightBar />
-            {/**/}
         </div>
+
+        {/**/}
+        <NewsLetter />
+
     </>)
 }

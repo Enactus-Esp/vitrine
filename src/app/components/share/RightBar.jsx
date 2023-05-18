@@ -16,7 +16,7 @@ export const RightBar = () => {
     ];
 
     return (<>
-        <div className={"hidden lg:block sticky top-0 space-y-10"}>
+        <div className={"hidden lg:block sticky top-10 space-y-10  pb-20 pr-4 "}>
 
             <div className={"w-72 border p-4 rounded-xl space-y-4"}>
                 <div className={"flex space-x-4"}>

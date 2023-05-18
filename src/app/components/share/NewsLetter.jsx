@@ -3,7 +3,7 @@
 export const NewsLetter = () => {
 
     return (<>
-        <div className="bg-white py-6 sm:py-8 lg:py-12">
+        <div id={"contact"} className="bg-white py-6 sm:py-8 lg:py-12">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8">
                     <div className="mb-4 sm:mb-8">
