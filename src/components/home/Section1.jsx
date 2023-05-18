@@ -15,12 +15,12 @@ function Section1() {
         </div>  
       </div>
 
-      <div className='md:flex items-center content-center my-32'>
+      <div className='md:flex items-center my-32'>
         <div>
             <span className='font-bold py-8 md:text-lg lg:text-xl xl:text-3xl xl:py-12'>Sed ut perspiciatis unde omnis</span>
-            <p className='text-black/60 font-light mx-2 my-4 xl:my-12 md:w-[80%]  md:text-left xl:text-2xl  xl:w-[70%]'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+            <p className='text-black/60 font-light mx-2 my-4 xl:my-12 md:w-[80%] md:ml-24 md:text-left xl:text-2xl  xl:w-[70%]'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
         </div>
-        <img src={sec1} className='my-8 md:w-[45%] ' />
+        <img src={sec2} className='my-8 md:w-[45%] ' />
       </div>
       
       

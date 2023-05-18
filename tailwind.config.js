@@ -58,7 +58,13 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'home': "url('/src/assets/HomeBackground.png')",
+        'home': "url('/src/assets/p3.png')",
+        'p1': "url('/src/assets/p1.png')",
+        'p2': "url('/src/assets/p2.png')",
+        'p3': "url('/src/assets/p3.png')",
+        'p4': "url('/src/assets/p4.png')",
+        'p5': "url('/src/assets/p5.png')",
+        'p6': "url('/src/assets/p6.png')",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -19,11 +19,11 @@ function NavBar() {
             <ol className='mx-4 lg:mx-8 '>Contact</ol>
         </nav>
         <div className=' justify-end  hidden lg:flex lg:mr-8 '>
-            <div className=' flex border border-black py-1 px-2 rounded-lg w-12 justify-between items-center'>
+            <div className=' flex border border-black py-1 px-2 rounded w-12 justify-between items-center'>
                 <span className='font-bold text-sm'>EN</span>
                 <img src={arrow} className='w-2 h-2 '/>
             </div>
-            <span className='flex text-white text-sm   bg-yellow rounded-lg ml-8 font-bold items-center px-1'>
+            <span className='flex text-white text-sm   bg-yellow rounded ml-8 font-bold items-center px-2'>
                 ESPACE MEMBRE
             </span>
 
