@@ -7,6 +7,7 @@ import {Footer} from "./components/share/Footer.jsx";
 import {MenNen} from "./pages/Men-nen.jsx";
 import {Dimbali} from "./pages/Dimbali.jsx";
 import {Shery} from "./pages/Shery.jsx";
+import {Home} from "./pages/Home.jsx";
 
 function App() {
 
@@ -17,14 +18,15 @@ function App() {
             <Header />
 
             <Routes>
+
+                {/**/}
+                <Route path={`/`} exact element={ <Home /> } />
+
                 {/**/}
                 <Route path={`/activity`} exact element={ <Activity /> } />
 
                 {/**/}
                 <Route path={`/activity/:`} exact element={ <PostOnActivity /> } />
-
-                {/**/}
-                <Route path={`/mennen`} exact element={ <MenNen /> } />
 
                 {/**/}
                 <Route path={`/mennen`} exact element={ <MenNen /> } />

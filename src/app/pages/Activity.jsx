@@ -10,18 +10,24 @@ function Activity () {
 
     return (<>
 
+        {/**/}
         <Cover />
 
+        {/**/}
         <div className={"flex justify-around w-full"}>
 
+            {/**/}
             <LeftBar />
 
+            {/**/}
             <ActivitiesList />
 
+            {/**/}
             <RightBar />
 
         </div>
 
+        {/**/}
         <NewsLetter />
 
     </>)

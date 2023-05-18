@@ -8,14 +8,19 @@ export const Shery = () => {
 
     return (<>
 
+        {/**/}
         <Cover />
 
+        {/**/}
         <div className={"flex justify-around"}>
 
+            {/**/}
             <Content />
+            {/**/}
             <RightBar />
         </div>
 
+        {/**/}
         <NewsLetter />
 
     </>)

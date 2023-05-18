@@ -8,15 +8,20 @@ export const MenNen = () => {
 
     return (<>
 
+        {/**/}
         <Cover />
 
+        {/**/}
         <div className={"flex justify-around"}>
 
+            {/**/}
             <Content />
+            {/**/}
             <RightBar />
         </div>
 
 
+        {/**/}
         <NewsLetter />
 
     </>)
