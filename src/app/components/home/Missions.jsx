@@ -1,5 +1,4 @@
 
-
 export const Missions = () => {
 
     return (<>
@@ -8,7 +7,7 @@ export const Missions = () => {
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
-                    <p className="mb-2 font-semibold text-main md:mb-3 lg:text-lg capitalise text-center">subtitle</p>
+                    <p className="mb-2 font-semibold text-main md:mb-3 lg:text-lg capitalise text-center">Enactus</p>
                     <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our
                         competitive advantage</h2>
 
@@ -31,11 +30,8 @@ export const Missions = () => {
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Growth</h3>
-                            <p className="mb-2 text-gray-500">Filler text is dummy text which has no meaning however
-                                looks very similar to real text.</p>
-                            <a href="#"
-                               className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
+                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Entrepreneuriat social</h3>
+                            <p className="mb-2 text-gray-500">Enactus encourage les étudiants à développer des projets entrepreneuriaux axés sur des solutions innovantes pour résoudre les problèmes sociaux et environnementaux.</p>
                         </div>
                     </div>
                     {/* feature - end */}
@@ -52,11 +48,8 @@ export const Missions = () => {
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Security</h3>
-                            <p className="mb-2 text-gray-500">Filler text is dummy text which has no meaning however
-                                looks very similar to real text.</p>
-                            <a href="#"
-                               className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
+                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Impact positif </h3>
+                            <p className="mb-2 text-gray-500"> Enactus vise à créer un impact positif et durable dans les communautés en développant des projets qui génèrent des résultats concrets et mesurables.</p>
                         </div>
                     </div>
                     {/* feature - end */}
@@ -65,19 +58,14 @@ export const Missions = () => {
                     <div className="flex gap-4 md:gap-6">
                         <div
                             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                 stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
-                            </svg>
+                            <svg className="h-6 w-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs>
+                                
+                                </defs> <g id="brain"> <path className="cls-1" d="M12,4.36V20.59a1.92,1.92,0,0,1-1.91,1.91,1.93,1.93,0,0,1-1.91-1.91v0a2.45,2.45,0,0,1-.48,0,3.35,3.35,0,0,1-3.34-3.34,3.19,3.19,0,0,1,.08-.7A4.29,4.29,0,0,1,3.6,8.79,3.24,3.24,0,0,1,3.41,7.7,3.34,3.34,0,0,1,6.27,4.4v0a2.87,2.87,0,0,1,5.73,0Z"></path> <path className="cls-1" d="M6.75,11.05a3.35,3.35,0,0,1,0-6.69"></path> <path className="cls-1" d="M8.18,13.91h0A3.82,3.82,0,0,1,12,17.73h0"></path> <path className="cls-1" d="M9.14,7.23h0A2.86,2.86,0,0,0,12,4.36h0"></path> <path className="cls-1" d="M12,4.36V20.59a1.92,1.92,0,0,0,1.91,1.91,1.93,1.93,0,0,0,1.91-1.91v0a2.45,2.45,0,0,0,.48,0,3.35,3.35,0,0,0,3.34-3.34,3.19,3.19,0,0,0-.08-.7,4.29,4.29,0,0,0,.84-7.76,3.24,3.24,0,0,0,.19-1.09,3.34,3.34,0,0,0-2.86-3.3v0a2.87,2.87,0,0,0-5.73,0Z"></path> <path className="cls-1" d="M17.25,11.05a3.35,3.35,0,0,0,0-6.69"></path> <path className="cls-1" d="M15.82,13.91h0A3.82,3.82,0,0,0,12,17.73h0"></path> <path className="cls-1" d="M14.86,7.23h0A2.86,2.86,0,0,1,12,4.36h0"></path> </g> </g></svg>
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Cloud</h3>
-                            <p className="mb-2 text-gray-500">Filler text is dummy text which has no meaning however
-                                looks very similar to real text.</p>
-                            <a href="#"
-                               className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
+                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Développement de compétences</h3>
+                            <p className="mb-2 text-gray-500">Enactus offre aux étudiants des opportunités d'apprentissage pratique, de développement de compétences en leadership, en gestion de projet, en communication et en esprit d'entreprise.</p>
                         </div>
                     </div>
                     {/* feature - end */}
@@ -86,19 +74,20 @@ export const Missions = () => {
                     <div className="flex gap-4 md:gap-6">
                         <div
                             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                  stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                       d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                            </svg>
+                            </svg> */}
+                            {/* handshake svg */}
+                            <svg fill="#fff" className="ml-2 mt-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 600 600">
+                                <g id="SVGRepo_bgCarrier" strokeWidth="2"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> 
+                                <path  strokeWidth="2" d="M471.176,162.893c-2.537-2.539-6.653-2.539-9.192,0l-40.487,40.488c-1.054,1.054-1.713,2.438-1.868,3.921 c-3.223,30.84-17.072,59.9-38.999,81.826l-9.621,9.621l-69.908-69.908c4.422,1.044,8.75,1.572,12.953,1.572 c6.165,0,12.065-1.127,17.607-3.395c3.323-1.359,4.914-5.155,3.555-8.477c-1.359-3.324-5.156-4.913-8.477-3.555 c-26.768,10.951-57.628-18.195-61.515-22.022l-18.575-18.575c2.306-9.78,0.315-20.276-5.615-28.803 c-6.704-9.638-17.362-15.165-29.287-15.165l-44.991,0.322c-0.04,0-0.08,0-0.119,0c-4.307,0-8.357-1.669-11.416-4.707 c-3.087-3.066-4.787-7.151-4.786-11.504v-0.677c0.002-8.733,6.84-15.844,15.567-16.188l81.933-3.228 c29.569-1.164,59.042,7.816,82.946,25.285c2.588,1.89,6.166,1.614,8.431-0.652l43.032-43.032c2.539-2.538,2.539-6.654,0.001-9.192 c-2.539-2.539-6.654-2.539-9.193,0l-39.173,39.174c-25.398-17.079-55.919-25.778-86.556-24.573l-81.933,3.228 c-0.193,0.008-0.382,0.025-0.573,0.037l-31.087-31.086c-2.538-2.539-6.654-2.539-9.192,0c-2.539,2.538-2.539,6.654,0,9.192 l26.352,26.352c-8.178,5.174-13.552,14.289-13.555,24.682v0.677c-0.002,7.842,3.062,15.204,8.625,20.73 c5.564,5.526,12.941,8.539,20.789,8.482l44.944-0.322c10.353,0,16.077,6.007,18.567,9.588c1.897,2.727,3.168,5.757,3.787,8.879 l-2.228-2.228c-2.538-2.539-6.654-2.539-9.192,0c-2.539,2.538-2.539,6.654,0,9.192l146.666,146.666 c6.334,6.333,6.334,16.639,0,22.972c-6.33,6.331-16.63,6.332-22.962,0.008l-93.42-93.419c-2.537-2.539-6.654-2.539-9.191,0 c-2.539,2.538-2.539,6.654,0,9.192l100.622,100.623c6.334,6.333,6.334,16.639,0,22.972c-3.067,3.068-7.146,4.758-11.486,4.758 c-4.339,0-8.418-1.69-11.485-4.758l-95.387-95.387c-2.539-2.538-6.654-2.538-9.192,0s-2.539,6.654,0,9.192l78.161,78.162 c6.328,6.334,6.326,16.634-0.005,22.965c-6.335,6.334-16.64,6.333-22.973,0l-84.888-84.888c-2.538-2.539-6.654-2.539-9.192,0 c-2.539,2.538-2.539,6.654,0,9.192l62.967,62.967c0,0,0.001,0.001,0.001,0.001c6.334,6.333,6.334,16.638,0,22.972 c-6.332,6.333-16.638,6.333-22.971,0L104.073,289.128c-21.926-21.926-35.776-50.986-38.998-81.826 c-0.155-1.483-0.814-2.867-1.869-3.921l-52.11-52.111c-2.538-2.539-6.654-2.539-9.192,0c-2.539,2.538-2.539,6.654,0,9.192 l50.502,50.502c3.968,32.934,18.996,63.876,42.475,87.355l9.586,9.586c-3.569,4.941-5.5,10.856-5.5,17.071 c0,7.811,3.042,15.155,8.565,20.678c5.701,5.701,13.189,8.552,20.678,8.552c0.737,0,1.473-0.036,2.208-0.091 c-0.251,1.552-0.386,3.134-0.386,4.737c0,7.811,3.042,15.155,8.565,20.678c5.701,5.701,13.189,8.552,20.678,8.552 c1.457,0,2.914-0.111,4.358-0.327c-1.325,8.865,1.414,18.226,8.224,25.036c5.523,5.523,12.867,8.565,20.678,8.565 c6.962,0,13.549-2.422,18.811-6.859c5.294,4.191,11.71,6.293,18.131,6.293c7.488,0,14.978-2.851,20.679-8.552 c4.247-4.247,6.909-9.487,7.992-14.979l4.733,4.733c5.702,5.702,13.189,8.552,20.679,8.552c7.488,0,14.979-2.851,20.68-8.552 c4.247-4.247,6.909-9.486,7.992-14.978l0.045,0.045c5.523,5.523,12.867,8.565,20.679,8.565c7.813,0,15.156-3.042,20.68-8.565 c8.349-8.349,10.576-20.53,6.698-30.932c6.66-0.55,13.168-3.36,18.252-8.445c10.858-10.858,11.368-28.195,1.546-39.672l9.69-9.691 c23.479-23.479,38.507-54.422,42.476-87.356l38.879-38.879C473.715,169.546,473.715,165.431,471.176,162.893z M116.725,336.462 c-3.068-3.068-4.758-7.147-4.758-11.486c0-2.717,0.663-5.331,1.911-7.66l21.992,21.992c-2.328,1.248-4.943,1.911-7.66,1.911 C123.872,341.221,119.793,339.531,116.725,336.462z M147.79,370.339c-3.068-3.068-4.758-7.147-4.758-11.486 c0-3.413,1.059-6.656,2.999-9.382l22.624,22.624C162.318,376.587,153.464,376.012,147.79,370.339z M181.05,403.599 c-5.674-5.674-6.248-14.527-1.756-20.865l22.624,22.624c-2.726,1.939-5.97,2.999-9.383,2.999 C188.197,408.357,184.118,406.667,181.05,403.599z"></path> </g></svg>
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Speed</h3>
-                            <p className="mb-2 text-gray-500">Filler text is dummy text which has no meaning however
-                                looks very similar to real text.</p>
-                            <a href="#"
-                               className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
+                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Collaboration </h3>
+                            <p className="mb-2 text-gray-500"> Enactus encourage la collaboration entre les étudiants, les universités, les entreprises et les communautés pour maximiser l'impact des projets et favoriser un changement social durable.</p>
                         </div>
                     </div>
                     {/* feature - end */}
@@ -107,25 +96,18 @@ export const Missions = () => {
                     <div className="flex gap-4 md:gap-6">
                         <div
                             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                 stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                      d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
-                            </svg>
+                            <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth=""></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.43124 9.68927C6.20891 10.0388 6.31199 10.5023 6.66148 10.7246C7.01096 10.947 7.47451 10.8439 7.69685 10.4944L6.43124 9.68927ZM10.0407 7.77083L10.2729 8.48399L10.2739 8.48365L10.0407 7.77083ZM10.5456 8.40513C10.9473 8.30399 11.1909 7.89637 11.0898 7.4947C10.9886 7.09302 10.581 6.84939 10.1793 6.95054L10.5456 8.40513ZM7.69693 10.4943C7.91919 10.1447 7.81601 9.6812 7.46647 9.45894C7.11694 9.23669 6.65341 9.33986 6.43115 9.6894L7.69693 10.4943ZM7.08257 16.4498L7.71309 16.0437L7.71306 16.0437L7.08257 16.4498ZM9.57369 18.5668L9.27752 19.2559L9.27785 19.256L9.57369 18.5668ZM13.8227 18.5668L14.1186 19.256L14.1189 19.2559L13.8227 18.5668ZM16.3139 16.4498L15.6834 16.0437L15.6833 16.0437L16.3139 16.4498ZM16.9653 9.6894C16.743 9.33986 16.2795 9.23669 15.93 9.45894C15.5804 9.6812 15.4772 10.1447 15.6995 10.4943L16.9653 9.6894ZM6.42906 10.4909C6.64948 10.8416 7.11247 10.9472 7.46316 10.7268C7.81385 10.5064 7.91945 10.0434 7.69903 9.69272L6.42906 10.4909ZM3.97914 5.18383L3.34206 5.57962L3.34416 5.58295L3.97914 5.18383ZM3.94917 4.68259L4.62931 4.99868L4.62931 4.99868L3.94917 4.68259ZM4.34769 4.39083L4.43506 5.13574L4.43987 5.13515L4.34769 4.39083ZM7.47257 4.00383L7.56475 4.74815L7.5652 4.74809L7.47257 4.00383ZM7.94934 4.21783L8.56435 3.78856L8.56277 3.78632L7.94934 4.21783ZM9.74941 8.1071C9.98649 8.44676 10.454 8.52991 10.7937 8.29283C11.1333 8.05575 11.2165 7.58822 10.9794 7.24856L9.74941 8.1071ZM10.1783 6.9513C9.777 7.05412 9.53507 7.46275 9.63789 7.864C9.7407 8.26525 10.1493 8.50718 10.5506 8.40436L10.1783 6.9513ZM12.8459 8.40436C13.2471 8.50718 13.6557 8.26525 13.7585 7.864C13.8614 7.46275 13.6194 7.05412 13.2182 6.9513L12.8459 8.40436ZM15.6995 10.4952C15.9217 10.8448 16.3852 10.948 16.7348 10.7257C17.0843 10.5035 17.1875 10.04 16.9653 9.69043L15.6995 10.4952ZM13.3557 7.77083L13.1225 8.48365L13.1234 8.48396L13.3557 7.77083ZM13.2171 6.95054C12.8154 6.84939 12.4078 7.09302 12.3067 7.4947C12.2055 7.89637 12.4492 8.30399 12.8508 8.40513L13.2171 6.95054ZM15.6992 9.69395C15.4789 10.0447 15.5847 10.5077 15.9355 10.728C16.2862 10.9483 16.7492 10.8425 16.9695 10.4917L15.6992 9.69395ZM19.4173 5.18383L20.0524 5.58271L20.0535 5.58096L19.4173 5.18383ZM19.4479 4.68189L18.7677 4.99765L18.7677 4.99765L19.4479 4.68189ZM19.0487 4.38983L18.9568 5.13419L18.9623 5.13483L19.0487 4.38983ZM15.9239 4.00383L15.8312 4.74809L15.8319 4.74818L15.9239 4.00383ZM15.4471 4.21783L14.8337 3.78631L14.8321 3.78848L15.4471 4.21783ZM12.4171 7.24748C12.1799 7.5871 12.263 8.05465 12.6027 8.29178C12.9423 8.5289 13.4098 8.44581 13.647 8.10619L12.4171 7.24748ZM7.69685 10.4944C8.30647 9.53611 9.21768 8.82752 10.2729 8.48399L9.80854 7.05767C8.41664 7.51081 7.22457 8.44221 6.43124 9.68927L7.69685 10.4944ZM10.2739 8.48365C10.3633 8.45441 10.4538 8.42823 10.5456 8.40513L10.1793 6.95054C10.054 6.9821 9.93003 7.01792 9.80748 7.05802L10.2739 8.48365ZM6.43115 9.6894C5.04454 11.8701 5.0527 14.6838 6.45207 16.856L7.71306 16.0437C6.63068 14.3635 6.62428 12.1812 7.69693 10.4943L6.43115 9.6894ZM6.45204 16.856C7.13919 17.9228 8.12183 18.7591 9.27752 19.2559L9.86987 17.8778C8.99248 17.5007 8.24101 16.8633 7.71309 16.0437L6.45204 16.856ZM9.27785 19.256C10.826 19.9206 12.5705 19.9206 14.1186 19.256L13.5269 17.8776C12.3566 18.38 11.0399 18.38 9.86953 17.8776L9.27785 19.256ZM14.1189 19.2559C15.2746 18.7591 16.2572 17.9228 16.9444 16.856L15.6833 16.0437C15.1554 16.8633 14.404 17.5007 13.5266 17.8778L14.1189 19.2559ZM16.9444 16.856C18.3437 14.6838 18.3519 11.8701 16.9653 9.6894L15.6995 10.4943C16.7722 12.1812 16.7658 14.3635 15.6834 16.0437L16.9444 16.856ZM7.69903 9.69272L4.61413 4.78472L3.34416 5.58295L6.42906 10.4909L7.69903 9.69272ZM4.61621 4.78805C4.65654 4.85297 4.66065 4.93124 4.62931 4.99868L3.26904 4.36649C3.08785 4.75635 3.11461 5.21348 3.34207 5.57961L4.61621 4.78805ZM4.62931 4.99868C4.59724 5.06767 4.52714 5.12493 4.43506 5.13573L4.26032 3.64594C3.82225 3.69732 3.45094 3.97509 3.26904 4.36649L4.62931 4.99868ZM4.43987 5.13515L7.56475 4.74815L7.38039 3.25952L4.25551 3.64652L4.43987 5.13515ZM7.5652 4.74809C7.46952 4.76 7.383 4.71628 7.33591 4.64935L8.56277 3.78632C8.29754 3.40927 7.84574 3.2016 7.37993 3.25957L7.5652 4.74809ZM7.33434 4.6471L9.74941 8.1071L10.9794 7.24856L8.56434 3.78856L7.33434 4.6471ZM10.5506 8.40436C11.3042 8.21126 12.0922 8.21126 12.8459 8.40436L13.2182 6.9513C12.2203 6.69561 11.1761 6.69561 10.1783 6.9513L10.5506 8.40436ZM16.9653 9.69043C16.1722 8.44295 14.9801 7.51114 13.588 7.05771L13.1234 8.48396C14.1788 8.8277 15.09 9.53661 15.6995 10.4952L16.9653 9.69043ZM13.5889 7.05802C13.4664 7.01792 13.3424 6.9821 13.2171 6.95054L12.8508 8.40513C12.9426 8.42823 13.0331 8.45441 13.1225 8.48365L13.5889 7.05802ZM16.9695 10.4917L20.0524 5.58271L18.7822 4.78495L15.6992 9.69395L16.9695 10.4917ZM20.0535 5.58096C20.2822 5.21467 20.3095 4.75672 20.1282 4.36612L18.7677 4.99765C18.7363 4.9301 18.7405 4.85167 18.7811 4.78671L20.0535 5.58096ZM20.1282 4.36612C19.9462 3.97396 19.5741 3.69579 19.1352 3.64484L18.9623 5.13483C18.87 5.12412 18.7997 5.06677 18.7677 4.99765L20.1282 4.36612ZM19.1407 3.64549L16.0158 3.25949L15.8319 4.74818L18.9568 5.13418L19.1407 3.64549ZM16.0165 3.25957C15.5507 3.2016 15.0989 3.40927 14.8337 3.78632L16.0605 4.64935C16.0134 4.71628 15.9269 4.76 15.8312 4.74809L16.0165 3.25957ZM14.8321 3.78848L12.4171 7.24748L13.647 8.10619L16.062 4.64719L14.8321 3.78848Z" fill="#ffffff"></path> <path fillRule="evenodd" clipRule="evenodd" d="M12.4714 11.5108L11.6982 10.0038L10.925 11.5108C10.8703 11.6208 10.7911 11.716 10.6939 11.7888C10.5964 11.8621 10.4836 11.911 10.3644 11.9318L8.77319 12.2528L9.88469 13.6158C10.0357 13.7865 10.1069 14.0161 10.0797 14.2448L9.87007 16.0038L11.3326 15.2768C11.4466 15.2205 11.5716 15.1915 11.6982 15.1918C11.816 15.192 11.932 15.2212 12.0365 15.2768L13.5361 15.9588L13.3245 14.2218C13.2973 13.9931 13.3685 13.7635 13.5195 13.5928L14.6232 12.2528L13.031 11.9328C12.9118 11.912 12.799 11.8631 12.7015 11.7898C12.6045 11.7166 12.5257 11.621 12.4714 11.5108Z" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
                         </div>
 
                         <div>
-                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Support</h3>
-                            <p className="mb-2 text-gray-500">Filler text is dummy text which has no meaning however
-                                looks very similar to real text.</p>
-                            <a href="#"
-                               className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
+                            <h3 className="mb-2 text-lg font-semibold md:text-xl">Responsabilité sociale</h3>
+                            <p className="mb-2 text-gray-500"> Enactus promeut une approche responsable et éthique de l'entrepreneuriat, en veillant à ce que les projets respectent les normes sociales, environnementales et économiques.</p>
                         </div>
                     </div>
                     {/* feature - end */}
 
                     {/* feature - start */}
-                    <div className="flex gap-4 md:gap-6">
+                    {/* <div className="flex gap-4 md:gap-6">
                         <div
                             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -142,7 +124,7 @@ export const Missions = () => {
                             <a href="#"
                                className="font-bold text-main transition duration-100 hover:text-indigo-600 active:text-main">More</a>
                         </div>
-                    </div>
+                    </div> */}
                     {/* feature - end */}
                 </div>
             </div>

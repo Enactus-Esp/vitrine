@@ -1,5 +1,4 @@
 import {useState} from "react";
-import logo from "../../../assets/logo.svg";
 
 export const Header = ({active}) => {
 
@@ -17,15 +16,15 @@ export const Header = ({active}) => {
 
 
     return (<>
-        <div className="bg-white lg:pb-12">
-            <div className="mx-auto maxW-screen-2xl px-4 md:px-8">
-                <header className="flex items-center justify-between py-4 md:py-8">
+        <div className="bg-white ">
+            <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <header className="flex items-center justify-between py-4 md:py-6">
                     {/* logo - start */}
                     <a href="/"
                        className="text-black-800 inline-flex items-center gap-2.5 text-2xl font-bold md:text-3xl"
                        aria-label="logo">
-                        <img src={logo} alt="enactus esp" className={"w-16"}/>
-                        Enactus-ESP
+                        <img src="./logo.jpg" alt="enactus esp" className={"w-16"}/>
+                        {/* Enactus-ESP */}
                     </a>
                     {/* logo - end */}
 

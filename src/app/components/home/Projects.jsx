@@ -7,19 +7,17 @@ export const Projects = () => {
 
     return (<>
         <div className={"mt-20"}></div>
-        <Heading text={"This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated."}
-                 subtitle={"Our project"}
-                 title={"Revolutionary way to build the web"}
+        <Heading text={"Ces projets peuvent couvrir un large éventail de domaines tels que la réduction de la pauvreté, l'autonomisation des femmes, la protection de l'environnement, l'éducation, l'accès à l'eau potable, le développement rural, etc. Les étudiants développent des compétences en leadership, en gestion de projet et en entrepreneuriat tout en apportant des solutions créatives aux problèmes sociaux."}
+                 subtitle={"Nos project"}
+                 title={"Entrepreneuriat social"}
                  position={"center"} />
         <div className="flex flex-wrap justify-around items-center p-10 pt-0 mx-auto ">
             <div className="bg-white py-6 sm:py-8 lg:py-12">
                 <p className="mb-2 font-semibold text-main md:mb-3 lg:text-lg capitalise">Our project</p>
                 <h2 className="mb-4 text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Revolutionary way to build the
                     web</h2>
-                <p className="w-96 text-gray-500 md:text-lg">This is a section
-                    of some simple filler text, also known as placeholder
-                    text. It shares some characteristics of a real written
-                    text but is random or otherwise generated.</p>
+                <p className="w-96 text-gray-500 md:text-lg">
+                Ces projets peuvent couvrir un large éventail de domaines tels que la réduction de la pauvreté, l&apos;autonomisation des femmes, la protection de l&apos;environnement, l&apos;éducation, l&apos;accès à l&apos;eau potable, le développement rural, etc. Les étudiants développent des compétences en leadership, en gestion de projet et en entrepreneuriat tout en apportant des solutions créatives aux problèmes sociaux.</p>
             </div>
             <div className="h-96 w-96 flex items-center relative ">
                 <div className="absolute items-center -left-14 w-64 h-72 rounded-xl shadow drop-shadow bg-white">
