@@ -8,12 +8,11 @@ export const Missions = () => {
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
                     <p className="mb-2 font-semibold text-main md:mb-3 lg:text-lg capitalise text-center">Enactus</p>
-                    <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our
-                        competitive advantage</h2>
+                    <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Nos avantages compétitifs</h2>
 
-                    <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of
+                    {/*<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of
                         some simple filler text, also known as placeholder text. It shares some characteristics of a
-                        real written text but is random or otherwise generated.</p>
+                        real written text but is random or otherwise generated.</p>*/}
                 </div>
                 {/* text - end */}
 
@@ -101,7 +100,7 @@ export const Missions = () => {
 
                         <div>
                             <h3 className="mb-2 text-lg font-semibold md:text-xl">Responsabilité sociale</h3>
-                            <p className="mb-2 text-gray-500"> Enactus promeut une approche responsable et éthique de l'entrepreneuriat, en veillant à ce que les projets respectent les normes sociales, environnementales et économiques.</p>
+                            <p className="mb-2 text-gray-500"> Enactus promet une approche responsable et éthique de l'entrepreneuriat, en veillant à ce que les projets respectent les normes sociales, environnementales et économiques.</p>
                         </div>
                     </div>
                     {/* feature - end */}

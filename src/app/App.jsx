@@ -7,6 +7,8 @@ import {Footer} from "./components/share/Footer.jsx";
 import {MenNen} from "./pages/Men-nen.jsx";
 import {Dimbali} from "./pages/Dimbali.jsx";
 import {Shery} from "./pages/Shery.jsx";
+import {Aquatus} from "./pages/aquatus.jsx";
+import {Terrasen} from "./pages/terrasen.jsx";
 import {Home} from "./pages/Home.jsx";
 
 function App() {
@@ -36,6 +38,12 @@ function App() {
 
                 {/**/}
                 <Route path={`/shery`} exact element={ <Shery /> } />
+
+                {/**/}
+                <Route path={`/terrasen`} exact element={ <Terrasen /> } />
+
+                {/**/}
+                <Route path={`/aquatus`} exact element={ <Aquatus /> } />
 
             </Routes>
 

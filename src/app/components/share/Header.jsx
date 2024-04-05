@@ -4,7 +4,7 @@ export const Header = ({active}) => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
     const [dropMenu, setDropMenu] = useState(false);
-    const [lang, setLang] = useState("en");
+    const [lang, setLang] = useState("fr");
 
 
 
@@ -30,25 +30,25 @@ export const Header = ({active}) => {
 
                     {/* nav - start */}
                     <nav className="hidden gap-12 lg:flex">
-                        <a href="#"
+                        <a href="/"
                            className={active === "home" ? classLinkActive : classLink}>Présentation</a>
                         <a href="/activity"
                            className={active === "home" ? classLinkActive : classLink}>Nos Activités</a>
                         <button onClick={() => setDropMenu(!dropMenu)}
                            className={` flex items-center ${active === "home" ? classLinkActive : classLink}`}>Nos Projects <ArrowDown /></button>
-                        <a href="#"
+                        <a href="#cont"
                            className={active === "home" ? classLinkActive : classLink}>Contact</a>
                     </nav>
                     {/* nav - end */}
 
                     {/* buttons - start */}
-                    <div className="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start items-center">
+                   <div className="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start items-center">
 
-                        <img src={lang === "FR" ? "https://flagicons.lipis.dev/flags/4x3/fr.svg" : "https://flagicons.lipis.dev/flags/4x3/gb.svg"} className={"w-5 h-5"} alt=""/>
+                         {/*<img src={lang === "FR" ? "https://flagicons.lipis.dev/flags/4x3/fr.svg" : "https://flagicons.lipis.dev/flags/4x3/gb.svg"} className={"w-5 h-5"} alt=""/>
                         <select name="lang" id="lang" value={lang} onChange={(e) => setLang(e.target.value)}>
                             <option value="GB">EN</option>
                             <option value="FR">FR</option>
-                        </select>
+                        </select>*/}
 
                         <a href="#" className="inline-block rounded-lg bg-[#FFC222] px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-[#C88A12] focus-visible:ring active:bg-indigo-700 md:text-base">ESPACE MEMBRE</a>
                     </div>
@@ -83,8 +83,12 @@ export const Header = ({active}) => {
                            className={active === "home" ? classLinkMobileActive : classLinkMobile}>Men Nen</a>
                         <a href="/dimbali"
                            className={active === "home" ? classLinkMobileActive : classLinkMobile}>Dimbali</a>
-                        <a href="/shery"
+                        <a href="https://shery.framer.website"
                            className={active === "home" ? classLinkMobileActive : classLinkMobile}>Shery</a>
+                        <a href="/terrasen"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Terrasen</a>
+                        <a href="/aquatus"
+                           className={active === "home" ? classLinkMobileActive : classLinkMobile}>Aquatus</a>
                         <a href="#contact"
                            className={active === "home" ? classLinkMobileActive : classLinkMobile}>Contact</a>
                     </nav>
@@ -117,9 +121,9 @@ const Menu = () => {
                         </div>
 
                         <div>
-                            <div className="mb-1 font-semibold">Men nen</div>
-                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Ad aliquid commodi./</p>
+                            <div className="mb-1 font-semibold">Mën Nañ</div>
+                            <p className="text-sm text-gray-500">Saré Yoba Diega, Sinthiou Dimb, Niaguiss, des zones différentes, trois choses en commun : la pauvreté, 
+                            l’inégalité des sexes et maintenant Mën Nañ.</p>
                         </div>
                     </a>
                     {/* link - end */}
@@ -137,14 +141,14 @@ const Menu = () => {
 
                         <div>
                             <div className="mb-1 font-semibold">Dimbali</div>
-                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Ad aliquid commodi.</p>
+                            <p className="text-sm text-gray-500">Projet de lutte contre la Malnutrition et 
+la Précarité de Femmes</p>
                         </div>
                     </a>
                     {/* link - end */}
 
                     {/* link - start */}
-                    <a href="/shery" className="group flex gap-4">
+                    <a href="https://shery.framer.website" className="group flex gap-4">
                         <div
                             className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
@@ -160,7 +164,39 @@ const Menu = () => {
                                 elit. Ad aliquid commodi.</p>
                         </div>
                     </a>
+                    <a href="/terrasen" className="group flex gap-4">
+                        <div
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
+                                 viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                      d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <div className="mb-1 font-semibold">terrasen</div>
+                            <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Ad aliquid commodi.</p>
+                        </div>
+                    </a>
                     {/* link - end */}
+                    <a href="/aquatus" className="group flex gap-4">
+                        <div
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-main text-white shadow-lg transition duration-100 group-hover:bg-main group-active:bg-mainmd:h-12 md:w-12">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
+                                 viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                      d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <div className="mb-1 font-semibold">Aquatus</div>
+                            <p className="text-sm text-gray-500">Saré Yoba Diega, Sinthiou Dimb, Niaguiss, des zones différentes, trois choses en commun : la pauvreté, 
+                            l’inégalité des sexes et maintenant Mën Nañ.</p>
+                        </div>
+                    </a>
                 </div>
 
             </div>

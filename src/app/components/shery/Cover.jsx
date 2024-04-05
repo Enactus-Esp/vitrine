@@ -7,21 +7,16 @@ export const Cover = () => {
 
                 <section className="mb-8 flex flex-col justify-between gap-6 sm:gap-10 md:mb-16 md:gap-16 lg:flex-row">
                    {/* content - start */}
-                    <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12">
-                        <p className="mb-4 font-semibold text-main md:mb-6 md:text-lg xl:text-xl">Very proud to
-                            introduce</p>
-
-                        <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Revolutionary
-                            way to build the web</h1>
-
-
+                    <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-center xl:w-5/12">
+                       <h1 className="text-black-1000 mb-18 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Shery</h1>
+                        <p className="mb-4 font-semibold text-main md:mb-6 md:text-lg xl:text-xl">L’ESSENTIEL POUR ELLE</p>
                     </div>
                    {/* content - end */}
 
                    {/* image - start */}
-                    <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-5/12">
+                    <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-[50%]">
                         <img
-                            src="https://images.unsplash.com/photo-1618556450991-2f1af64e8191?auto=format&q=75&fit=crop&w=1000"
+                            src="African.png"
                             loading="lazy" alt="Photo by Fakurian Design"
                             className="h-full w-full object-cover object-center"/>
                     </div>

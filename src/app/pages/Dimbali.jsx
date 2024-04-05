@@ -1,7 +1,6 @@
 import {Cover} from "../components/dimbali/Cover.jsx";
-import {RightBar} from "../components/share/RightBar.jsx";
 import {NewsLetter} from "../components/share/NewsLetter.jsx";
-import {Content} from "../components/PostOnActivity/Content.jsx";
+import {Content} from "../components/dimbali/Content.jsx";
 
 export const Dimbali = () => {
 
@@ -15,8 +14,6 @@ export const Dimbali = () => {
 
             {/**/}
             <Content />
-            {/**/}
-            <RightBar />
         </div>
 
         {/**/}
