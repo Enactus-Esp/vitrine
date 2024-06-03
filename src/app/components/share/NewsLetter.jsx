@@ -7,9 +7,8 @@ export const NewsLetter = () => {
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8">
                     <div className="mb-4 sm:mb-8">
-                        <h2 className="text-center text-xl font-bold text-main sm:text-2xl lg:text-3xl">Get the
-                            latest updates</h2>
-                        <p className="text-center text-gray-500">Sign up for our newsletter</p>
+                        <h2 className="text-center text-xl font-bold text-main sm:text-2xl lg:text-3xl">Nos Actualités</h2>
+                        <p className="text-center text-gray-500">Inscris-toi pour recevoir notre newsletter</p>
                     </div>
 
                     <form className="mb-3 flex w-full max-w-md gap-2 sm:mb-5">
@@ -21,12 +20,10 @@ export const NewsLetter = () => {
                         </button>
                     </form>
 
-                    <p className="text-center text-xs text-gray-400">By signing up to our newsletter you agree to our <a
+                    <p className="text-center text-xs text-gray-400">En s'inscrivant , vous acceptez nos <a
                         href="#"
-                        className="underline transition duration-100 hover:text-main active:text-main">Term
-                        of Service</a> and <a href="#"
-                                              className="underline transition duration-100 hover:text-main active:text-main">Privacy
-                        Policy</a>.</p>
+                        className="underline transition duration-100 hover:text-main active:text-main">termes de services</a> et <a href="#"
+                                              className="underline transition duration-100 hover:text-main active:text-main">politiques de confidentialité</a>.</p>
                 </div>
             </div>
         </div>

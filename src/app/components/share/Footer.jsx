@@ -5,7 +5,7 @@ export const Footer = () => {
     return (<>
         <footer className="bg-white">
 
-            <div className="pt-12 lg:pt-16">
+            <div id="cont" className="pt-12 lg:pt-16">
                 <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                     <div className="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
                         <div className="col-span-full lg:col-span-2">
@@ -21,12 +21,11 @@ export const Footer = () => {
                             </div>
                             {/* logo - end */}
 
-                            <p className="mb-6 text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning
-                                however looks very similar to real text</p>
+                            <p className="mb-6 text-gray-500 sm:pr-8">Empowering our society is our priority</p>
 
                             {/* social - start */}
                             <div className="flex gap-4">
-                                <a href="#" target="_blank"
+                                <a href="https://www.instagram.com/enactus.esp?igsh=ejJ4Z3cxdGkwODFx" target="_blank"
                                    className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
                                     <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24"
                                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +34,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" target="_blank"
+                                <a href="https://x.com/enactusesp?s=11" target="_blank"
                                    className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
                                     <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24"
                                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +43,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" target="_blank"
+                                <a href="https://www.linkedin.com/in/enactus-esp-59899819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"
                                    className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
                                     <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24"
                                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +52,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" target="_blank"
+                                <a href="https://github.com/Enactus-Esp" target="_blank"
                                    className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
                                     <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24"
                                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -182,7 +181,7 @@ export const Footer = () => {
                         {/* nav - end */}
                     </div>
 
-                    <div className="border-t py-8 text-center text-sm text-gray-400">© 2021 - Present Flowrift. All
+                    <div className="border-t py-8 text-center text-sm text-gray-400">© 2024 - ENACTUSESP . All
                         rights reserved.
                     </div>
                 </div>

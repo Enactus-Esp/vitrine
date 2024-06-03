@@ -1,7 +1,7 @@
 import {Cover} from "../components/shery/Cover.jsx";
 import {RightBar} from "../components/share/RightBar.jsx";
 import {NewsLetter} from "../components/share/NewsLetter.jsx";
-import {Content} from "../components/PostOnActivity/Content.jsx";
+import {Content} from "../components/shery/Content.jsx";
 
 
 export const Shery = () => {

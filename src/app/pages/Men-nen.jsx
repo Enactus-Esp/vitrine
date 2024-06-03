@@ -1,7 +1,6 @@
 import {Cover} from "../components/men-nen/Cover.jsx";
-import {RightBar} from "../components/share/RightBar.jsx";
 import {NewsLetter} from "../components/share/NewsLetter.jsx";
-import {Content} from "../components/PostOnActivity/Content.jsx";
+import {Content} from "../components/men-nen/Content.jsx";
 
 
 export const MenNen = () => {
@@ -12,12 +11,11 @@ export const MenNen = () => {
         <Cover />
 
         {/**/}
-        <div className={"flex justify-around"}>
+        <div className={"flex justify-center"}>
 
             {/**/}
             <Content />
             {/**/}
-            <RightBar />
         </div>
 
 

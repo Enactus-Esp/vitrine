@@ -5,63 +5,24 @@ export const Cover = () => {
         <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 
-                <section className="mb-8 flex flex-col justify-between gap-6 sm:gap-10 md:mb-16 md:gap-16 lg:flex-row">
-                    {/* content - start */}
-                    <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12">
-                        <p className="mb-4 font-semibold text-main md:mb-6 md:text-lg xl:text-xl">Very proud to
-                            introduce</p>
-
-                        <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Revolutionary
-                            way to build the web</h1>
+                
+                    <div className="flex item-center justify-center mx-auto max-w-screen-md px-4 md:px-8">
+                        <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Mën Nañ</h1>
 
                     </div>
                     {/* content - end */}
 
                     {/* image - start */}
-                    <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-5/12">
+                    <div className="flex item-center justify-center h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-[100%]">
                         <img
-                            src="https://images.unsplash.com/photo-1618556450991-2f1af64e8191?auto=format&q=75&fit=crop&w=1000"
+                            src="gass.png"
                             loading="lazy" alt="Photo by Fakurian Design"
                             className="h-full w-full object-cover object-center"/>
                     </div>
                     {/* image - end */}
-                </section>
-
                 <section
                     className="flex flex-col items-center justify-between gap-10 border-t pt-8 lg:flex-row lg:gap-8">
                     {/* stats - start */}
-                    <div className="-mx-6 grid grid-cols-2 gap-4 md:-mx-8 md:flex md:divide-x">
-                        <div className="px-6 md:px-8">
-                            <span
-                                className="block text-center text-lg font-bold text-main md:text-left md:text-xl">200</span>
-                            <span
-                                className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-base">People</span>
-                        </div>
-
-                        <div className="px-6 md:px-8">
-                            <span
-                                className="block text-center text-lg font-bold text-main md:text-left md:text-xl">500+</span>
-                            <span
-                                className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-base">Projects</span>
-                        </div>
-
-                        <div className="px-6 md:px-8">
-                            <span
-                                className="block text-center text-lg font-bold text-main md:text-left md:text-xl">250+</span>
-                            <span
-                                className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-base">Customers</span>
-                        </div>
-
-                        <div className="px-6 md:px-8">
-                            <span
-                                className="block text-center text-lg font-bold text-main md:text-left md:text-xl">A couple</span>
-                            <span
-                                className="block text-center text-sm font-semibold text-gray-800 md:text-left md:text-base">Coffee breaks</span>
-                        </div>
-                    </div>
-                    {/* stats - end */}
-
-                    {/* social - start */}
                     <div className="flex items-center justify-center gap-4 lg:justify-start">
                         <span
                             className="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base">Social</span>
